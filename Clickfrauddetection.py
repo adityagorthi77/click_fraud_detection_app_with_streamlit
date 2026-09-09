@@ -62,7 +62,7 @@ st.image('https://www.businessprocessincubator.com/wp-content/uploads/thumbnails
 # Add your company logo or any other branding elements here
 # st.image('path_to_your_logo.png', use_column_width=True)
 # Sidebar options
-st.sidebar.image("//Users/saikrishnaadityagorthi/desktop/sujithgo_bahalulk_sgorthi_phase_3/data/Picture1.jpeg")
+st.sidebar.image("images.jpeg", use_container_width=True)
 option = st.sidebar.selectbox(
     'Choose an option:',
     ['Home', 'Predictions', 'Visualizations']
