@@ -330,4 +330,4 @@ elif option == 'Visualizations':
     # Add more visualizations as needed...
 
 # You can add more sections/options as needed
-update whole code and give me
+
