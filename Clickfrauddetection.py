@@ -52,12 +52,12 @@ st.set_page_config(
 )
 
 # Add your company logo or any other branding elements here
-st.image('https://www.businessprocessincubator.com/wp-content/uploads/thumbnails/thumbnail-83782.jpg', use_container_width=True)
+st.image('https://www.businessprocessincubator.com/wp-content/uploads/thumbnails/thumbnail-83782.jpg', width="stretch")
 
 # Add your company logo or any other branding elements here
 # st.image('path_to_your_logo.png', use_column_width=True)
 # Sidebar options
-st.sidebar.image("images.jpeg", use_container_width=True)
+st.sidebar.image("images.jpeg", width="stretch")
 option = st.sidebar.selectbox(
     'Choose an option:',
     ['Home', 'Predictions', 'Visualizations']
