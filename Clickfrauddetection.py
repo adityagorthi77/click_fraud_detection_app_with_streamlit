@@ -27,9 +27,7 @@ balanced_data = pd.read_pickle('cleaned_data.pkl')
 
 
 
-# Load the pre-trained RandomForestClassifier
-with open('final_random_forest_model.pkl', 'rb') as file:
-    model = pickle.load(file)
+
 
 # Function to preprocess input data
 def preprocess_input(data):
