@@ -52,7 +52,7 @@ st.set_page_config(
 )
 
 # Add your company logo or any other branding elements here
-st.image('https://www.businessprocessincubator.com/wp-content/uploads/thumbnails/thumbnail-83782.jpg', use_column_width=True)
+st.image('https://www.businessprocessincubator.com/wp-content/uploads/thumbnails/thumbnail-83782.jpg', use_container_width=True)
 
 # Add your company logo or any other branding elements here
 # st.image('path_to_your_logo.png', use_column_width=True)
