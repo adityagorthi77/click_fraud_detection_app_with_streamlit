@@ -4,12 +4,20 @@
 # In[1]:
 
 
-import pickle
+
 import pandas as pd
 
 # Load the model from the file
-with open('final_random_forest_model.pkl', 'rb') as file:
-    loaded_model = pickle.load(file)
+from huggingface_hub import hf_hub_download
+import pickle
+
+model_path = hf_hub_download(
+    repo_id="YOUR_USERNAME/click-fraud-random-forest-model",
+    filename="final_random_forest_model.pkl"
+)
+
+with open(model_path, "rb") as file:
+    model = pickle.load(file)
 balanced_data = pd.read_pickle('cleaned_data.pkl')
 
 # In[11]:
